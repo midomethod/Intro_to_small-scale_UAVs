@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "Chapter2.py", line 105, in <module>
+    ourWindow = testInterface()
+  File "Chapter2.py", line 20, in __init__
+    super().__init__(parent)
+  File "/home/midoro/Documents/Essential/UCSC/2020-2021/ECE163/mkanuma/ece163/Display/baseInterface.py", line 99, in __init__
+    self.vehicleInstance = vehicleDisplay.vehicleDisplay()
+  File "/home/midoro/Documents/Essential/UCSC/2020-2021/ECE163/mkanuma/ece163/Display/vehicleDisplay.py", line 53, in __init__
+    self.vehicleDrawInstance = VehicleGeometry.VehicleGeometry()
+  File "/home/midoro/Documents/Essential/UCSC/2020-2021/ECE163/mkanuma/ece163/Modeling/VehicleGeometry.py", line 66, in __init__
+    scalingUnit = VPC.b / 6.0	# scaling determined by the wingspan of the aircraft in VehiclePhysicalConstants
+NameError: name 'VPC' is not defined
